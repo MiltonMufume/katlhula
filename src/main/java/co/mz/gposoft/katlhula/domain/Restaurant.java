@@ -11,10 +11,10 @@ public class Restaurant {
     private String attendanceTime;
 
     //this might be an ENUM with punctuation rate from 1 to 5
-    private String classification;
+    private ServiceClassification classification;
 
     //this might be an ENUM with the categories
-    private String category;
+    private RestaurantCategory category;
 
     private UserPhoto photo;
 

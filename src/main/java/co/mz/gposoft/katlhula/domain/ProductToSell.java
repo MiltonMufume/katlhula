@@ -15,7 +15,7 @@ public class ProductToSell {
     private String classification;
 
     //this might be an ENUM with the categories
-    private String category;
+    private ProductCategory category;
 
     private UserPhoto photo;
 
