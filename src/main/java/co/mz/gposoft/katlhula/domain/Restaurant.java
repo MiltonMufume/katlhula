@@ -22,7 +22,70 @@ public class Restaurant {
 
     private User createdBy;
 
+    public Restaurant(String description, String location, String attendanceTime, ServiceClassification classification, RestaurantCategory category, UserPhoto photo, RestaurantMenu menu, User createdBy) {
+        this.description = description;
+        this.location = location;
+        this.attendanceTime = attendanceTime;
+        this.classification = classification;
+        this.category = category;
+        this.photo = photo;
+        this.menu = menu;
+        this.createdBy = createdBy;
+    }
+
+
+    public long getId() {
+        return id;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public String getAttendanceTime() {
+        return attendanceTime;
+    }
+
+    public ServiceClassification getClassification() {
+        return classification;
+    }
+
+    public RestaurantCategory getCategory() {
+        return category;
+    }
+
+    public UserPhoto getPhoto() {
+        return photo;
+    }
+
+    public RestaurantMenu getMenu() {
+        return menu;
+    }
+
+    public User getCreatedBy() {
+        return createdBy;
+    }
+
     /*
      * then a set of business and other (CRUD) methods
      * */
+
+    @Override
+    public String toString() {
+        return "Restaurant{" +
+                "id=" + id +
+                ", description='" + description + '\'' +
+                ", location='" + location + '\'' +
+                ", attendanceTime='" + attendanceTime + '\'' +
+                ", classification=" + classification +
+                ", category=" + category +
+                ", photo=" + photo +
+                ", menu=" + menu +
+                ", createdBy=" + createdBy +
+                '}';
+    }
 }
