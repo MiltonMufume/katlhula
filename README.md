@@ -15,4 +15,4 @@ This is a project that will be used to develop a a protoype for an application t
 - Secção de CRUD (vendedores e) de venda de produtos e artigos
 	- Com secção de procura de artigos com notificação a vendedores e notificação de disponibilidade do artigo procurado
 
-![katlhula]class diagram]https://gitlab.com/miltonmufume/katlhula/-/blob/master/support%20documents/katlhula.png
+![katlhula class diagram]https://gitlab.com/miltonmufume/katlhula/-/blob/master/support%20documents/katlhula.png
