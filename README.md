@@ -3,7 +3,7 @@
 
 
 ## Introduction
-This is a project that will be used to develop a a protoype for an application that aims to be used as a portal to manage cultural events, search restaurants, expose products to sell and to give the users the oportunity to classify the services offered in the application.
+This is a project that will be used to develop a a protoype for an application that aims to be used as a portal to manage cultural events, search restaurants, expose products to sell and to give the users the oportunity to classify the services offered in the application. In this project we will be testing a lot of sofltware development technologies with proof of concepts in different branches, each on them to be created based on the test that we want to do.
 
 ## Initial requirements
 - CRUD de eventos culturais
@@ -14,5 +14,7 @@ This is a project that will be used to develop a a protoype for an application t
 	- Adição de fotos de pratos/bebidas favoritas com espaço para descrição
 - Secção de CRUD (vendedores e) de venda de produtos e artigos
 	- Com secção de procura de artigos com notificação a vendedores e notificação de disponibilidade do artigo procurado
+
+## Katlhula class diagram
 
 ![katlhula class diagram](support documents/katlhula.png)
