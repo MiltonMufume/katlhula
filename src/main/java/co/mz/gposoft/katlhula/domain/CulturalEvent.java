@@ -18,13 +18,17 @@ public class CulturalEvent {
 
     private User createdBy;
 
-    public CulturalEvent(String description, LocalDate eventDate, String eventPlace, String eventTime, String organizer, User createdBy) {
+    private Status status;
+
+    public CulturalEvent(long id, String description, LocalDate eventDate, String eventPlace, String eventTime, String organizer, User createdBy, Status status) {
+        this.id = id;
         this.description = description;
         this.eventDate = eventDate;
         this.eventPlace = eventPlace;
         EventTime = eventTime;
         this.organizer = organizer;
         this.createdBy = createdBy;
+        this.status = status;
     }
 
     public long getId() {
@@ -55,6 +59,10 @@ public class CulturalEvent {
         return createdBy;
     }
 
+    public Status getStatus() {
+        return status;
+    }
+
     /*
      * then a set of business and other (CRUD) methods
      * */
@@ -69,6 +77,7 @@ public class CulturalEvent {
                 ", EventTime='" + EventTime + '\'' +
                 ", organizer='" + organizer + '\'' +
                 ", createdBy=" + createdBy +
+                ", status=" + status +
                 '}';
     }
 }

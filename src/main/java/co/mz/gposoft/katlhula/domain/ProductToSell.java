@@ -19,13 +19,17 @@ public class ProductToSell {
 
     private UserPhoto photo;
 
-    public ProductToSell(String description, String location, SellerContact contacts, String classification, ProductCategory category, UserPhoto photo) {
+    private Status status;
+
+    public ProductToSell(long id, String description, String location, SellerContact contacts, String classification, ProductCategory category, UserPhoto photo, Status status) {
+        this.id = id;
         this.description = description;
         this.location = location;
         this.contacts = contacts;
         this.classification = classification;
         this.category = category;
         this.photo = photo;
+        this.status = status;
     }
 
     public long getId() {
@@ -56,6 +60,13 @@ public class ProductToSell {
         return photo;
     }
 
+    public Status getStatus() {
+        return status;
+    }
+
+    /*
+     * then a set of business and other (CRUD) methods
+     * */
     @Override
     public String toString() {
         return "ProductToSell{" +
@@ -66,6 +77,7 @@ public class ProductToSell {
                 ", classification='" + classification + '\'' +
                 ", category=" + category +
                 ", photo=" + photo +
+                ", status=" + status +
                 '}';
     }
 }

@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b7ef2ed-eed9-449e-bb07-fd1413001b25" name="Changes" comment="Creating constructors and adding getters and toStrings">
+    <list default="true" id="4b7ef2ed-eed9-449e-bb07-fd1413001b25" name="Changes" comment="Updating the readme and adding junit dependency to the project pom">
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/Status.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/CulturalEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/CulturalEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/ProductToSell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/ProductToSell.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -94,7 +95,7 @@
       <workItem from="1685450361467" duration="9681000" />
       <workItem from="1685704780179" duration="40000" />
       <workItem from="1685705116270" duration="61000" />
-      <workItem from="1686223906995" duration="2323000" />
+      <workItem from="1686223906995" duration="3249000" />
     </task>
     <task id="LOCAL-00001" summary="Adding this new project to the repo">
       <created>1684492451772</created>
@@ -117,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685529993250</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updating the readme and adding junit dependency to the project pom">
+      <created>1686234459552</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686234459552</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +135,7 @@
     <MESSAGE value="Adding this new project to the repo" />
     <MESSAGE value="Creating some enums" />
     <MESSAGE value="Creating constructors and adding getters and toStrings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating constructors and adding getters and toStrings" />
+    <MESSAGE value="Updating the readme and adding junit dependency to the project pom" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating the readme and adding junit dependency to the project pom" />
   </component>
 </project>
