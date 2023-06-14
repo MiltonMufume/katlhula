@@ -20,8 +20,8 @@ public class CulturalEvent {
 
     private Status status;
 
-    public CulturalEvent(long id, String description, LocalDate eventDate, String eventPlace, String eventTime, String organizer, User createdBy, Status status) {
-        this.id = id;
+    public CulturalEvent(String description, LocalDate eventDate, String eventPlace, String eventTime, String organizer, User createdBy, Status status) {
+
         this.description = description;
         this.eventDate = eventDate;
         this.eventPlace = eventPlace;
@@ -79,5 +79,9 @@ public class CulturalEvent {
                 ", createdBy=" + createdBy +
                 ", status=" + status +
                 '}';
+    }
+
+    public void remove() {
+        this.status = Status.INACTIVE;
     }
 }

@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b7ef2ed-eed9-449e-bb07-fd1413001b25" name="Changes" comment="Adding the status attribute to some classes  in order to be possible to evaluate is some object is still valid or not based on the context">
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/dao/GenericDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CulturalEventTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/CulturalEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/CulturalEvent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="katlhula-frontend" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,7 +67,7 @@
       <recent name="co.mz.gposoft.domain" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CulturalEventTest.testInactivarEventoRemovido">
     <configuration name="TestandoEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestandoEnum" />
       <module name="katlhula" />
@@ -74,8 +75,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CulturalEventTest.testInactivarEventoRemovido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="katlhula" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CulturalEventTest" />
+      <option name="METHOD_NAME" value="testInactivarEventoRemovido" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CulturalEventTest.testInactivarEventoRemovido" />
+        <item itemvalue="Application.TestandoEnum" />
         <item itemvalue="Application.TestandoEnum" />
       </list>
     </recent_temporary>
