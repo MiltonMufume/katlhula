@@ -1,8 +1,19 @@
 package co.mz.gposoft.katlhula.dao;
 
-public class GenericDao<T> {
+import java.util.Collection;
+import java.util.Collections;
 
-    public T save(T t) {
-        return t;
-    }
+public interface GenericDao<T> {
+
+    public T save(T t);
+
+    public T findById(long id);
+
+    public T update(T t);
+
+    public T delete(T t);
+
+    public Collection<T> findAll();
+
+
 }

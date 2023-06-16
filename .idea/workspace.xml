@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b7ef2ed-eed9-449e-bb07-fd1413001b25" name="Changes" comment="Adding the status attribute to some classes  in order to be possible to evaluate is some object is still valid or not based on the context">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CulturalEventTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/dao/ArticleForSaleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/dao/CulturalEventRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/dao/ProductToSellRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/dao/RestaurantMenuRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/dao/RestaurantRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/dao/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/dao/SellerContactRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/dao/UserPhotoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/dao/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/CulturalEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/CulturalEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/dao/GenericDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/dao/GenericDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CulturalEventTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CulturalEventTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -67,10 +77,19 @@
       <recent name="co.mz.gposoft.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CulturalEventTest.testInactivarEventoRemovido">
+  <component name="RunManager" selected="JUnit.CulturalEventTest">
     <configuration name="TestandoEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestandoEnum" />
       <module name="katlhula" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CulturalEventTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="katlhula" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CulturalEventTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -87,8 +106,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CulturalEventTest" />
         <item itemvalue="JUnit.CulturalEventTest.testInactivarEventoRemovido" />
         <item itemvalue="Application.TestandoEnum" />
+        <item itemvalue="JUnit.CulturalEventTest.testInactivarEventoRemovido" />
         <item itemvalue="Application.TestandoEnum" />
       </list>
     </recent_temporary>

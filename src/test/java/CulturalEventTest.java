@@ -1,19 +1,32 @@
 import co.mz.gposoft.katlhula.domain.*;
-import junit.framework.TestCase;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
 
 import java.time.LocalDate;
 
-public class CulturalEventTest extends TestCase {
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-    public void testInactivarEventoRemovido() {
+public class CulturalEventTest {
 
+    private CulturalEvent culturalEvent;
+
+    @BeforeEach
+    public void init() {
         Role roles = new Role("normal-user", RoleAccess.NORMAL_USER);
         User user = new User("milton", "milton123", roles);
 
-        CulturalEvent culturalEvent = new CulturalEvent("Panda e os Caricas", LocalDate.now(),
+        culturalEvent = new CulturalEvent("Panda e os Caricas", LocalDate.now(),
                 "Parque dos continuadores", "Das 11h30 - 00h00", "VIVO", user, Status.ACTIVE);
+    }
+
+
+    @Test
+    public void testInactivarEventoRemovido() {
 
         culturalEvent.remove();
+
         assertEquals(Status.INACTIVE, culturalEvent.getStatus());
     }
 }
