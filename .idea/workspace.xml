@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b7ef2ed-eed9-449e-bb07-fd1413001b25" name="Changes" comment="Adding the status attribute to some classes  in order to be possible to evaluate is some object is still valid or not based on the context">
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/dao/ArticleForSaleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/dao/CulturalEventRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/dao/ProductToSellRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/dao/RestaurantMenuRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/dao/RestaurantRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/dao/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/dao/SellerContactRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/dao/UserPhotoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/dao/UserRepository.java" afterDir="false" />
+    <list default="true" id="4b7ef2ed-eed9-449e-bb07-fd1413001b25" name="Changes" comment="Adding the frontend base page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/dao/GenericDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/dao/GenericDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CulturalEventTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CulturalEventTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -164,7 +153,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686235376197</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Creating some new classes and adding junit 5 dependency">
+      <created>1686909844030</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686909844030</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Adding the frontend base page">
+      <created>1686912339716</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686912339716</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +179,8 @@
     <MESSAGE value="Creating constructors and adding getters and toStrings" />
     <MESSAGE value="Updating the readme and adding junit dependency to the project pom" />
     <MESSAGE value="Adding the status attribute to some classes  in order to be possible to evaluate is some object is still valid or not based on the context" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding the status attribute to some classes  in order to be possible to evaluate is some object is still valid or not based on the context" />
+    <MESSAGE value="Creating some new classes and adding junit 5 dependency" />
+    <MESSAGE value="Adding the frontend base page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding the frontend base page" />
   </component>
 </project>
