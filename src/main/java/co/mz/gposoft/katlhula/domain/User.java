@@ -10,10 +10,13 @@ public class User {
 
     private Role roles;
 
-    public User(String username, String password, Role roles) {
+    private String email;
+
+    public User(String username, String password, Role roles, String email) {
         this.username = username;
         this.password = password;
         this.roles = roles;
+        this.email = email;
     }
 
     public long getId() {
@@ -32,6 +35,10 @@ public class User {
         return roles;
     }
 
+    public String getEmail() {
+        return email;
+    }
+
     public boolean integratedAuthentication() {
         return false;
     }
@@ -47,6 +54,7 @@ public class User {
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
                 ", roles=" + roles +
+                ", email='" + email + '\'' +
                 '}';
     }
 }

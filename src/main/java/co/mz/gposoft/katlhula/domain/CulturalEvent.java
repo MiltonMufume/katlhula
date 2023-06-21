@@ -12,7 +12,7 @@ public class CulturalEvent {
 
     private String eventPlace;
 
-    private String EventTime;
+    private String eventTime;
 
     private String organizer;
 
@@ -25,7 +25,7 @@ public class CulturalEvent {
         this.description = description;
         this.eventDate = eventDate;
         this.eventPlace = eventPlace;
-        EventTime = eventTime;
+        this.eventTime = eventTime;
         this.organizer = organizer;
         this.createdBy = createdBy;
         this.status = status;
@@ -48,7 +48,7 @@ public class CulturalEvent {
     }
 
     public String getEventTime() {
-        return EventTime;
+        return eventTime;
     }
 
     public String getOrganizer() {
@@ -74,7 +74,7 @@ public class CulturalEvent {
                 ", description='" + description + '\'' +
                 ", eventDate=" + eventDate +
                 ", eventPlace='" + eventPlace + '\'' +
-                ", EventTime='" + EventTime + '\'' +
+                ", EventTime='" + eventTime + '\'' +
                 ", organizer='" + organizer + '\'' +
                 ", createdBy=" + createdBy +
                 ", status=" + status +
