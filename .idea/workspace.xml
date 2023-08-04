@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b7ef2ed-eed9-449e-bb07-fd1413001b25" name="Changes" comment="Adding more tests to the project">
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/ProductClassification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/ProductStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PoductToSellTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestaurantTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/CulturalEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/CulturalEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/ProductToSell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/ProductToSell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/Status.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CulturalEventTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CulturalEventTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,9 +24,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -39,7 +44,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$USER_HOME$/dev/apache-maven-3.8.6" />
+        <option name="mavenHome" value="/usr/share/maven" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -55,18 +60,19 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/mmufume/developer_workspaces/openmrs-module-eptssync&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/mufume/workspace-csaude/openmrs-eip&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;shared-indexes&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -79,28 +85,52 @@
       <recent name="co.mz.gposoft.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CulturalEventTest">
-    <configuration name="TestandoEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestandoEnum" />
+  <component name="RunManager" selected="JUnit.PoductToSellTest.testProdutoVendido">
+    <configuration name="CulturalEventTest.testEventoFuturo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="katlhula" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CulturalEventTest" />
+      <option name="METHOD_NAME" value="testEventoFuturo" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CulturalEventTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CulturalEventTest.testReactivarEvento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="katlhula" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CulturalEventTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="testReactivarEvento" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CulturalEventTest.testInactivarEventoRemovido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PoductToSellTest.testInactivateRemovedProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="katlhula" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CulturalEventTest" />
-      <option name="METHOD_NAME" value="testInactivarEventoRemovido" />
+      <option name="MAIN_CLASS_NAME" value="PoductToSellTest" />
+      <option name="METHOD_NAME" value="testInactivateRemovedProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PoductToSellTest.testProdutoDisponivel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="katlhula" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PoductToSellTest" />
+      <option name="METHOD_NAME" value="testProdutoDisponivel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PoductToSellTest.testProdutoVendido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="katlhula" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PoductToSellTest" />
+      <option name="METHOD_NAME" value="testProdutoVendido" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CulturalEventTest" />
-        <item itemvalue="JUnit.CulturalEventTest.testInactivarEventoRemovido" />
-        <item itemvalue="Application.TestandoEnum" />
-        <item itemvalue="JUnit.CulturalEventTest.testInactivarEventoRemovido" />
-        <item itemvalue="Application.TestandoEnum" />
+        <item itemvalue="JUnit.PoductToSellTest.testProdutoVendido" />
+        <item itemvalue="JUnit.PoductToSellTest.testProdutoDisponivel" />
+        <item itemvalue="JUnit.PoductToSellTest.testInactivateRemovedProduct" />
+        <item itemvalue="JUnit.CulturalEventTest.testReactivarEvento" />
+        <item itemvalue="JUnit.CulturalEventTest.testEventoFuturo" />
       </list>
     </recent_temporary>
   </component>
@@ -133,6 +163,14 @@
       <workItem from="1687159494838" duration="1206000" />
       <workItem from="1687162296137" duration="11764000" />
       <workItem from="1687354301216" duration="701000" />
+      <workItem from="1690269851794" duration="48000" />
+      <workItem from="1690273848500" duration="203000" />
+      <workItem from="1690284638848" duration="500000" />
+      <workItem from="1690285144184" duration="1260000" />
+      <workItem from="1690287557830" duration="2631000" />
+      <workItem from="1690379719354" duration="12000" />
+      <workItem from="1691134141682" duration="3391000" />
+      <workItem from="1691138246161" duration="4144000" />
     </task>
     <task id="LOCAL-00001" summary="Adding this new project to the repo">
       <created>1684492451772</created>

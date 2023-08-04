@@ -20,7 +20,7 @@ public class CulturalEvent {
 
     private Status status;
 
-    public CulturalEvent(String description, LocalDate eventDate, String eventPlace, String eventTime, String organizer, User createdBy, Status status) {
+    public CulturalEvent(String description, LocalDate eventDate, String eventPlace, String eventTime, String organizer, User createdBy) {
 
         this.description = description;
         this.eventDate = eventDate;
@@ -28,7 +28,11 @@ public class CulturalEvent {
         this.eventTime = eventTime;
         this.organizer = organizer;
         this.createdBy = createdBy;
-        this.status = status;
+
+
+        updateEventStatus( this.eventDate);
+
+
     }
 
     public long getId() {
@@ -41,6 +45,14 @@ public class CulturalEvent {
 
     public LocalDate getEventDate() {
         return eventDate;
+    }
+
+    public void setEventDate(LocalDate eventDate) {
+        this.eventDate = eventDate;
+
+        updateEventStatus(this.eventDate);
+
+
     }
 
     public String getEventPlace() {
@@ -69,19 +81,24 @@ public class CulturalEvent {
 
     @Override
     public String toString() {
-        return "CulturalEvent{" +
-                "id=" + id +
-                ", description='" + description + '\'' +
-                ", eventDate=" + eventDate +
-                ", eventPlace='" + eventPlace + '\'' +
-                ", EventTime='" + eventTime + '\'' +
-                ", organizer='" + organizer + '\'' +
-                ", createdBy=" + createdBy +
-                ", status=" + status +
-                '}';
+        return "CulturalEvent{" + "id=" + id + ", description='" + description + '\'' + ", eventDate=" + eventDate + ", eventPlace='" + eventPlace + '\'' + ", EventTime='" + eventTime + '\'' + ", organizer='" + organizer + '\'' + ", createdBy=" + createdBy + ", status=" + status + '}';
     }
 
     public void remove() {
         this.status = Status.INACTIVE;
+    }
+
+    private void updateEventStatus(LocalDate eventDate) {
+
+        if (eventDate.isBefore(LocalDate.now())) {
+            throw new RuntimeException("Cannot pass past values to the Event Dates");
+        }
+
+        if (eventDate.isAfter(LocalDate.now())) {
+
+            this.status = Status.FOR_HAPPEN;
+        } else if (eventDate.isEqual(LocalDate.now())) {
+            this.status = Status.ACTIVE;
+        }
     }
 }

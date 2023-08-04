@@ -12,17 +12,17 @@ public class ProductToSell {
     private SellerContact contacts;
 
     //this might be an ENUM with punctuation rate from 1 to 5
-    private String classification;
+    private ProductClassification classification;
 
     //this might be an ENUM with the categories
     private ProductCategory category;
 
     private UserPhoto photo;
 
-    private Status status;
+    private ProductStatus status;
 
-    public ProductToSell(long id, String description, String location, SellerContact contacts, String classification, ProductCategory category, UserPhoto photo, Status status) {
-        this.id = id;
+    public ProductToSell(String description, String location, SellerContact contacts, ProductClassification classification, ProductCategory category, UserPhoto photo, ProductStatus status) {
+
         this.description = description;
         this.location = location;
         this.contacts = contacts;
@@ -48,7 +48,7 @@ public class ProductToSell {
         return contacts;
     }
 
-    public String getClassification() {
+    public ProductClassification getClassification() {
         return classification;
     }
 
@@ -60,7 +60,7 @@ public class ProductToSell {
         return photo;
     }
 
-    public Status getStatus() {
+    public ProductStatus getStatus() {
         return status;
     }
 
@@ -79,5 +79,14 @@ public class ProductToSell {
                 ", photo=" + photo +
                 ", status=" + status +
                 '}';
+    }
+
+    public void remove() {
+        this.status = ProductStatus.INACTIVO;
+    }
+
+    public void productSold() {
+
+        this.status = ProductStatus.VENDIDO;
     }
 }
