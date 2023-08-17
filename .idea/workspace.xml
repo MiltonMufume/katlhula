@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b7ef2ed-eed9-449e-bb07-fd1413001b25" name="Changes" comment="Adding more tests to the project">
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/KatlhulaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="4b7ef2ed-eed9-449e-bb07-fd1413001b25" name="Changes" comment="Creating jpa branch to database connection">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -63,10 +62,11 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "shared-indexes",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "spring.configuration.checksum": "eba3e9d9d3e901f02daf4182599e2071",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -170,7 +170,10 @@
       <workItem from="1691134141682" duration="3391000" />
       <workItem from="1691138246161" duration="5607000" />
       <workItem from="1691392121482" duration="1319000" />
-      <workItem from="1692259099038" duration="1262000" />
+      <workItem from="1692259099038" duration="4246000" />
+      <workItem from="1692267195841" duration="1087000" />
+      <workItem from="1692269624285" duration="655000" />
+      <workItem from="1692270285830" duration="3150000" />
     </task>
     <task id="LOCAL-00001" summary="Adding this new project to the repo">
       <created>1684492451772</created>
@@ -243,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691142521128</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Creating jpa branch to database connection">
+      <option name="closed" value="true" />
+      <created>1692260517307</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1692260517307</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +269,8 @@
     <MESSAGE value="Creating some new classes and adding junit 5 dependency" />
     <MESSAGE value="Adding the frontend base page" />
     <MESSAGE value="Adding more tests to the project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding more tests to the project" />
+    <MESSAGE value="Creating jpa branch to database connection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating jpa branch to database connection" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
