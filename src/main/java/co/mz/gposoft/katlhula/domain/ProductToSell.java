@@ -1,8 +1,14 @@
 package co.mz.gposoft.katlhula.domain;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name = "product_to_sell")
 public class ProductToSell {
 
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
     private String description;
