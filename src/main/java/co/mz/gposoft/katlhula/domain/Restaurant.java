@@ -1,7 +1,14 @@
 package co.mz.gposoft.katlhula.domain;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name="restaurant")
 public class Restaurant {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "restaurant_id")
     private long id;
 
     private String description;
@@ -15,11 +22,19 @@ public class Restaurant {
 
     //this might be an ENUM with the categories
     private RestaurantCategory category;
-
+    @Column(name = "photo")
+    @OneToOne
+    @JoinColumn(name = "id_photo")
     private UserPhoto photo;
 
+    @Column(name = "restaurant_menu")
+    @OneToOne
+    @JoinColumn(name = "id_restaurant_menu")
     private RestaurantMenu menu;
 
+    @Column(name = "created_by")
+    @OneToOne
+    @JoinColumn(name = "user_id")
     private User createdBy;
 
     public Restaurant(String description, String location, String attendanceTime, ServiceClassification classification, RestaurantCategory category, UserPhoto photo, RestaurantMenu menu, User createdBy) {
@@ -31,6 +46,10 @@ public class Restaurant {
         this.photo = photo;
         this.menu = menu;
         this.createdBy = createdBy;
+    }
+
+    public Restaurant() {
+
     }
 
 

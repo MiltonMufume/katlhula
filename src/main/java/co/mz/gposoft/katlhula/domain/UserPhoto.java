@@ -25,6 +25,12 @@ public class UserPhoto {
     @OneToOne(mappedBy = "photo")
     private ProductToSell productToSell;
 
+    @OneToOne(mappedBy = "photo")
+    Restaurant restaurant;
+
+    @OneToOne(mappedBy = "photo")
+    private RestaurantMenu restaurantMenu;
+
     public UserPhoto(String location, String photoDescription, User createdBy) {
         this.location = location;
         this.photoDescription = photoDescription;

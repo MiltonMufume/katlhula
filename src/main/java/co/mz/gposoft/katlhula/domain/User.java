@@ -29,6 +29,12 @@ public class User {
     @OneToOne(mappedBy = "created_by")
     private UserPhoto userPhoto;
 
+    @OneToOne (mappedBy = "created_by")
+    private CulturalEvent culturalEvent;
+
+    @OneToOne(mappedBy = "created_by")
+    Restaurant restaurant;
+
     public User(String username, String password, Role roles, String email) {
         this.username = username;
         this.password = password;

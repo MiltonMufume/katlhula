@@ -1,23 +1,38 @@
 package co.mz.gposoft.katlhula.domain;
 
+import javax.persistence.*;
 import java.time.LocalDate;
 
+@Entity
+@Table(name = "cultural_event")
 public class CulturalEvent {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id_cultural_event")
     private long id;
 
+    @Column(name = "description")
     private String description;
 
+    @Column(name = "event_date")
     private LocalDate eventDate;
 
+    @Column(name = "event_place")
     private String eventPlace;
 
+    @Column(name = "event_time")
     private String eventTime;
 
+    @Column(name = "event_organizer")
     private String organizer;
 
+    @Column(name = "created_by")
+    @OneToOne
+    @JoinColumn(name = "user_id")
     private User createdBy;
 
+    @Column(name = "status")
     private Status status;
 
     public CulturalEvent(String description, LocalDate eventDate, String eventPlace, String eventTime, String organizer, User createdBy) {
@@ -30,8 +45,12 @@ public class CulturalEvent {
         this.createdBy = createdBy;
 
 
-        updateEventStatus( this.eventDate);
+        updateEventStatus(this.eventDate);
 
+
+    }
+
+    public CulturalEvent() {
 
     }
 
