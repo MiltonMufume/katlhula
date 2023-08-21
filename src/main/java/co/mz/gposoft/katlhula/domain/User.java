@@ -8,21 +8,36 @@ public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "user_id")
     private long id;
 
+    @Column(name = "username")
     private String username;
 
+    @Column(name = "password")
     private String password;
 
+    @Column(name = "role")
+    @OneToOne
+    @JoinColumn(name = "role_id")
     private Role roles;
 
+    @Column(name = "email")
     private String email;
+
+
+    @OneToOne(mappedBy = "created_by")
+    private UserPhoto userPhoto;
 
     public User(String username, String password, Role roles, String email) {
         this.username = username;
         this.password = password;
         this.roles = roles;
         this.email = email;
+    }
+
+    public User() {
+
     }
 
     public long getId() {

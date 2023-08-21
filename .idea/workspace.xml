@@ -6,9 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="4b7ef2ed-eed9-449e-bb07-fd1413001b25" name="Changes" comment="Creating jpa branch to database connection">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/ArticleForSale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/ArticleForSale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/dao/ArticleForSaleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/dao/ArticleForSaleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/ArticleForSale.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/ProductToSell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/ProductToSell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/SellerContact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/SellerContact.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/UserPhoto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/UserPhoto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

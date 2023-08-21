@@ -9,22 +9,34 @@ public class ProductToSell {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id_product_to_sell")
     private long id;
 
+    @Column(name = "description")
     private String description;
 
+    @Column(name = "location")
     private String location;
 
+    @Column(name = "contacts")
+    @OneToOne
+    @JoinColumn(name = "id_seller_contact")
     private SellerContact contacts;
 
     //this might be an ENUM with punctuation rate from 1 to 5
+    @Column(name = "classification")
     private ProductClassification classification;
 
     //this might be an ENUM with the categories
+    @Column(name = "category")
     private ProductCategory category;
 
+    @Column(name = "photo")
+    @OneToOne
+    @JoinColumn(name = "id_photo")
     private UserPhoto photo;
 
+    @Column(name = "product_status")
     private ProductStatus status;
 
     public ProductToSell(String description, String location, SellerContact contacts, ProductClassification classification, ProductCategory category, UserPhoto photo, ProductStatus status) {
@@ -36,6 +48,10 @@ public class ProductToSell {
         this.category = category;
         this.photo = photo;
         this.status = status;
+    }
+
+    public ProductToSell() {
+
     }
 
     public long getId() {

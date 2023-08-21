@@ -1,17 +1,33 @@
 package co.mz.gposoft.katlhula.domain;
 
+
+import javax.persistence.*;
+
+@Entity
+@Table(name = "role")
 public class Role {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "role_id")
     private long id;
 
+    @Column(name = "description")
     private String description;
 
-
+    @Column(name = "role_access")
     private RoleAccess access;
+
+    @OneToOne(mappedBy = "roles")
+    private User user;
 
     public Role(String description, RoleAccess access) {
         this.description = description;
         this.access = access;
+    }
+
+    public Role() {
+
     }
 
     public long getId() {
