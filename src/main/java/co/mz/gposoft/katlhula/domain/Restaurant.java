@@ -3,7 +3,7 @@ package co.mz.gposoft.katlhula.domain;
 import javax.persistence.*;
 
 @Entity
-@Table(name="restaurant")
+@Table(name = "restaurant")
 public class Restaurant {
 
     @Id
@@ -11,16 +11,21 @@ public class Restaurant {
     @Column(name = "restaurant_id")
     private long id;
 
+    @Column(name = "description")
     private String description;
 
+    @Column(name = "location")
     private String location;
 
+    @Column(name = "attendance_time")
     private String attendanceTime;
 
     //this might be an ENUM with punctuation rate from 1 to 5
+    @Column(name = "service_classification")
     private ServiceClassification classification;
 
     //this might be an ENUM with the categories
+    @Column(name = "restaurant_category")
     private RestaurantCategory category;
     @Column(name = "photo")
     @OneToOne
