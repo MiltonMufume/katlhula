@@ -27,15 +27,15 @@ public class CulturalEvent {
     @Column(name = "event_organizer")
     private String organizer;
 
-    @Column(name = "created_by")
+
     @OneToOne
-    @JoinColumn(name = "user_id")
-    private User createdBy;
+    @JoinColumn(name = "id_utilizador")
+    private Utilizador createdBy;
 
     @Column(name = "status")
     private Status status;
 
-    public CulturalEvent(String description, LocalDate eventDate, String eventPlace, String eventTime, String organizer, User createdBy) {
+    public CulturalEvent(String description, LocalDate eventDate, String eventPlace, String eventTime, String organizer, Utilizador createdBy) {
 
         this.description = description;
         this.eventDate = eventDate;
@@ -86,12 +86,36 @@ public class CulturalEvent {
         return organizer;
     }
 
-    public User getCreatedBy() {
+    public Utilizador getCreatedBy() {
         return createdBy;
     }
 
     public Status getStatus() {
         return status;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public void setEventPlace(String eventPlace) {
+        this.eventPlace = eventPlace;
+    }
+
+    public void setEventTime(String eventTime) {
+        this.eventTime = eventTime;
+    }
+
+    public void setOrganizer(String organizer) {
+        this.organizer = organizer;
+    }
+
+    public void setCreatedBy(Utilizador createdBy) {
+        this.createdBy = createdBy;
+    }
+
+    public void setStatus(Status status) {
+        this.status = status;
     }
 
     /*

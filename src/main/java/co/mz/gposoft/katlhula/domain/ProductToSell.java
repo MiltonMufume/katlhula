@@ -18,7 +18,7 @@ public class ProductToSell {
     @Column(name = "location")
     private String location;
 
-    @Column(name = "contacts")
+
     @OneToOne
     @JoinColumn(name = "id_seller_contact")
     private SellerContact contacts;
@@ -31,9 +31,8 @@ public class ProductToSell {
     @Column(name = "category")
     private ProductCategory category;
 
-    @Column(name = "photo")
     @OneToOne
-    @JoinColumn(name = "id_photo")
+    @JoinColumn(name = "id_foto")
     private UserPhoto photo;
 
     @Column(name = "product_status")

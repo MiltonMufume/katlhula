@@ -1,7 +1,6 @@
 import co.mz.gposoft.katlhula.domain.*;
 import org.junit.jupiter.api.BeforeEach;
 
-import java.time.LocalDate;
 import java.util.Arrays;
 import java.util.List;
 
@@ -18,13 +17,13 @@ public class RestaurantTest {
     @BeforeEach
     public void init() {
 
-        User user = new User("Milton Mufume", "passerrfv", null, "miltonmufume@gmail.com");
+        Utilizador utilizador = new Utilizador("Milton Mufume", "passerrfv", null, "miltonmufume@gmail.com");
 
-        Restaurant restaurant1 = new Restaurant("Bel Piatto", "Av. Marginal", "09h00 - 23h00", ServiceClassification.THREE_STARS, RestaurantCategory.GOURMET, null, null, user);
-        Restaurant restaurant2 = new Restaurant("Bom Garfo", "Av. Julius Nyerere", "09h00 - 23h00", ServiceClassification.FOUR_STARS, RestaurantCategory.BARBEQUE, null, null, user);
-        Restaurant restaurant3 = new Restaurant("Zambi", "Av. 10 de  Novembro", "09h00 - 23h00", ServiceClassification.FIVE_STARS, RestaurantCategory.GOURMET, null, null, user);
-        Restaurant restaurant4 = new Restaurant("kfc-baixa", "Av. 25 de Setembro", "09h00 - 23h00", ServiceClassification.TWO_STARS, RestaurantCategory.FAST_FOOD, null, null, user);
-        Restaurant restaurant5 = new Restaurant("Mimmos 24", "Av. 24 de Julho", "09h00 - 23h00", ServiceClassification.THREE_STARS, RestaurantCategory.FAST_FOOD, null, null, user);
+        Restaurant restaurant1 = new Restaurant("Bel Piatto", "Av. Marginal", "09h00 - 23h00", ServiceClassification.THREE_STARS, RestaurantCategory.GOURMET, null, null, utilizador);
+        Restaurant restaurant2 = new Restaurant("Bom Garfo", "Av. Julius Nyerere", "09h00 - 23h00", ServiceClassification.FOUR_STARS, RestaurantCategory.BARBEQUE, null, null, utilizador);
+        Restaurant restaurant3 = new Restaurant("Zambi", "Av. 10 de  Novembro", "09h00 - 23h00", ServiceClassification.FIVE_STARS, RestaurantCategory.GOURMET, null, null, utilizador);
+        Restaurant restaurant4 = new Restaurant("kfc-baixa", "Av. 25 de Setembro", "09h00 - 23h00", ServiceClassification.TWO_STARS, RestaurantCategory.FAST_FOOD, null, null, utilizador);
+        Restaurant restaurant5 = new Restaurant("Mimmos 24", "Av. 24 de Julho", "09h00 - 23h00", ServiceClassification.THREE_STARS, RestaurantCategory.FAST_FOOD, null, null, utilizador);
 
         restaurantList = Arrays.asList(restaurant1, restaurant2, restaurant3, restaurant4, restaurant5);
 

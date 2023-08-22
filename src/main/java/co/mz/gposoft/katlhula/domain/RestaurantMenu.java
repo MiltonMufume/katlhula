@@ -12,9 +12,8 @@ public class RestaurantMenu {
     @Column(name = "id_restaurant_menu")
     private long id;
 
-    @Column(name = "photo")
     @OneToOne
-    @JoinColumn(name = "id_photo")
+    @JoinColumn(name = "id_foto")
     private UserPhoto photo;
 
     @Column(name = "restaurant_menu")

@@ -27,22 +27,22 @@ public class Restaurant {
     //this might be an ENUM with the categories
     @Column(name = "restaurant_category")
     private RestaurantCategory category;
-    @Column(name = "photo")
+
     @OneToOne
-    @JoinColumn(name = "id_photo")
+    @JoinColumn(name = "id_foto")
     private UserPhoto photo;
 
-    @Column(name = "restaurant_menu")
+
     @OneToOne
     @JoinColumn(name = "id_restaurant_menu")
     private RestaurantMenu menu;
 
-    @Column(name = "created_by")
-    @OneToOne
-    @JoinColumn(name = "user_id")
-    private User createdBy;
 
-    public Restaurant(String description, String location, String attendanceTime, ServiceClassification classification, RestaurantCategory category, UserPhoto photo, RestaurantMenu menu, User createdBy) {
+    @OneToOne
+    @JoinColumn(name = "id_utilizador")
+    private Utilizador createdBy;
+
+    public Restaurant(String description, String location, String attendanceTime, ServiceClassification classification, RestaurantCategory category, UserPhoto photo, RestaurantMenu menu, Utilizador createdBy) {
         this.description = description;
         this.location = location;
         this.attendanceTime = attendanceTime;
@@ -90,7 +90,7 @@ public class Restaurant {
         return menu;
     }
 
-    public User getCreatedBy() {
+    public Utilizador getCreatedBy() {
         return createdBy;
     }
 

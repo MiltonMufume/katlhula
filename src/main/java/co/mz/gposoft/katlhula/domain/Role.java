@@ -19,7 +19,7 @@ public class Role {
     private RoleAccess access;
 
     @OneToOne(mappedBy = "roles")
-    private User user;
+    private Utilizador utilizador;
 
     public Role(String description, RoleAccess access) {
         this.description = description;

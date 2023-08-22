@@ -3,12 +3,12 @@ package co.mz.gposoft.katlhula.domain;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "user")
-public class User {
+@Table(name = "utilizador")
+public class Utilizador {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "user_id")
+    @Column(name = "id_utilizador")
     private long id;
 
     @Column(name = "username")
@@ -17,7 +17,7 @@ public class User {
     @Column(name = "password")
     private String password;
 
-    @Column(name = "role")
+
     @OneToOne
     @JoinColumn(name = "role_id")
     private Role roles;
@@ -26,23 +26,23 @@ public class User {
     private String email;
 
 
-    @OneToOne(mappedBy = "created_by")
+    @OneToOne(mappedBy = "createdBy")
     private UserPhoto userPhoto;
 
-    @OneToOne (mappedBy = "created_by")
+    @OneToOne(mappedBy = "createdBy")
     private CulturalEvent culturalEvent;
 
-    @OneToOne(mappedBy = "created_by")
+    @OneToOne(mappedBy = "createdBy")
     Restaurant restaurant;
 
-    public User(String username, String password, Role roles, String email) {
+    public Utilizador(String username, String password, Role roles, String email) {
         this.username = username;
         this.password = password;
         this.roles = roles;
         this.email = email;
     }
 
-    public User() {
+    public Utilizador() {
 
     }
 

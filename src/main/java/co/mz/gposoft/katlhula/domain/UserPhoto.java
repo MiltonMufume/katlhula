@@ -3,12 +3,12 @@ package co.mz.gposoft.katlhula.domain;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "user_photo")
+@Table(name = "foto")
 public class UserPhoto {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id_photo")
+    @Column(name = "id_foto")
     private long id;
 
     @Column(name = "location_dir")
@@ -17,10 +17,10 @@ public class UserPhoto {
     @Column(name = "photo_decription")
     private String photoDescription;
 
-    @Column(name = "created_by")
+
     @OneToOne
-    @JoinColumn(name = "user_id")
-    private User createdBy;
+    @JoinColumn(name = "id_utilizador")
+    private Utilizador createdBy;
 
     @OneToOne(mappedBy = "photo")
     private ProductToSell productToSell;
@@ -31,7 +31,7 @@ public class UserPhoto {
     @OneToOne(mappedBy = "photo")
     private RestaurantMenu restaurantMenu;
 
-    public UserPhoto(String location, String photoDescription, User createdBy) {
+    public UserPhoto(String location, String photoDescription, Utilizador createdBy) {
         this.location = location;
         this.photoDescription = photoDescription;
         this.createdBy = createdBy;
@@ -53,7 +53,7 @@ public class UserPhoto {
         return photoDescription;
     }
 
-    public User getCreatedBy() {
+    public Utilizador getCreatedBy() {
         return createdBy;
     }
 
