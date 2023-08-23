@@ -44,6 +44,18 @@ public class RestaurantMenu {
         return menu;
     }
 
+    public void setPhoto(UserPhoto photo) {
+        this.photo = photo;
+    }
+
+    public void setMenu(Map<String, Double> menu) {
+        this.menu = menu;
+    }
+
+    public void setRestaurant(Restaurant restaurant) {
+        this.restaurant = restaurant;
+    }
+
     /*
      * then a set of business and other (CRUD) methods
      * */

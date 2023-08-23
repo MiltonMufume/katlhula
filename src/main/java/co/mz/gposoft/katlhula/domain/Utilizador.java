@@ -70,6 +70,34 @@ public class Utilizador {
         return false;
     }
 
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public void setRoles(Role roles) {
+        this.roles = roles;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setUserPhoto(UserPhoto userPhoto) {
+        this.userPhoto = userPhoto;
+    }
+
+    public void setCulturalEvent(CulturalEvent culturalEvent) {
+        this.culturalEvent = culturalEvent;
+    }
+
+    public void setRestaurant(Restaurant restaurant) {
+        this.restaurant = restaurant;
+    }
+
     /*
      * then a set of business and other (CRUD) methods
      * */

@@ -42,6 +42,18 @@ public class Role {
         return access;
     }
 
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public void setAccess(RoleAccess access) {
+        this.access = access;
+    }
+
+    public void setUtilizador(Utilizador utilizador) {
+        this.utilizador = utilizador;
+    }
+
     /*
      * then a set of business and other (CRUD) methods
      * */

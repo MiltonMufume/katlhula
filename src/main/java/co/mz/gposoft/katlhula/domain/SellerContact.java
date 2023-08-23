@@ -52,6 +52,22 @@ public class SellerContact {
         return name;
     }
 
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setCellphones(List<String> cellphones) {
+        this.cellphones = cellphones;
+    }
+
+    public void setProductToSell(ProductToSell productToSell) {
+        this.productToSell = productToSell;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     @Override
     public String toString() {
         return "SellerContact{" +

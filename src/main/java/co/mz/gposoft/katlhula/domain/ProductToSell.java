@@ -85,6 +85,34 @@ public class ProductToSell {
         return status;
     }
 
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
+    public void setContacts(SellerContact contacts) {
+        this.contacts = contacts;
+    }
+
+    public void setClassification(ProductClassification classification) {
+        this.classification = classification;
+    }
+
+    public void setCategory(ProductCategory category) {
+        this.category = category;
+    }
+
+    public void setPhoto(UserPhoto photo) {
+        this.photo = photo;
+    }
+
+    public void setStatus(ProductStatus status) {
+        this.status = status;
+    }
+
     /*
      * then a set of business and other (CRUD) methods
      * */

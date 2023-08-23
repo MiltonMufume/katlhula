@@ -94,6 +94,38 @@ public class Restaurant {
         return createdBy;
     }
 
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
+    public void setAttendanceTime(String attendanceTime) {
+        this.attendanceTime = attendanceTime;
+    }
+
+    public void setClassification(ServiceClassification classification) {
+        this.classification = classification;
+    }
+
+    public void setCategory(RestaurantCategory category) {
+        this.category = category;
+    }
+
+    public void setPhoto(UserPhoto photo) {
+        this.photo = photo;
+    }
+
+    public void setMenu(RestaurantMenu menu) {
+        this.menu = menu;
+    }
+
+    public void setCreatedBy(Utilizador createdBy) {
+        this.createdBy = createdBy;
+    }
+
     /*
      * then a set of business and other (CRUD) methods
      * */

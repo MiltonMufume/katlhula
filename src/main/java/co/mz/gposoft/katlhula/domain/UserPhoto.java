@@ -57,6 +57,30 @@ public class UserPhoto {
         return createdBy;
     }
 
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
+    public void setPhotoDescription(String photoDescription) {
+        this.photoDescription = photoDescription;
+    }
+
+    public void setCreatedBy(Utilizador createdBy) {
+        this.createdBy = createdBy;
+    }
+
+    public void setProductToSell(ProductToSell productToSell) {
+        this.productToSell = productToSell;
+    }
+
+    public void setRestaurant(Restaurant restaurant) {
+        this.restaurant = restaurant;
+    }
+
+    public void setRestaurantMenu(RestaurantMenu restaurantMenu) {
+        this.restaurantMenu = restaurantMenu;
+    }
+
     @Override
     public String toString() {
         return "UserPhoto{" +
