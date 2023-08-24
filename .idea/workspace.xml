@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b7ef2ed-eed9-449e-bb07-fd1413001b25" name="Changes" comment="Refactoring the repositories and starting database tests">
+    <list default="true" id="4b7ef2ed-eed9-449e-bb07-fd1413001b25" name="Changes" comment="Refactoring the repositories and adding more database tests">
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestaurantMenuTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RoleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/dao/CulturalEventRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/dao/CulturalEventRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/ProductToSell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/ProductToSell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/Restaurant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/RestaurantMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/RestaurantMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/SellerContact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/SellerContact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/UserPhoto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/UserPhoto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/Utilizador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/Utilizador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CulturalEventTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CulturalEventTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PoductToSellTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PoductToSellTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestaurantTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestaurantTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,51 +95,51 @@
       <recent name="co.mz.gposoft.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RestaurantTest">
-    <configuration name="PoductToSellTest.testCreateCulturalEventOnDatabase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RoleTest">
+    <configuration name="RestaurantMenuTest.testCreateRestaurantMenuOnDatabase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="katlhula" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PoductToSellTest" />
-      <option name="METHOD_NAME" value="testCreateCulturalEventOnDatabase" />
+      <option name="MAIN_CLASS_NAME" value="RestaurantMenuTest" />
+      <option name="METHOD_NAME" value="testCreateRestaurantMenuOnDatabase" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PoductToSellTest.testDeleteCulturalEventOnDatabase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RestaurantMenuTest.testDeleteRestaurantMenuOnDatabase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="katlhula" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PoductToSellTest" />
-      <option name="METHOD_NAME" value="testDeleteCulturalEventOnDatabase" />
+      <option name="MAIN_CLASS_NAME" value="RestaurantMenuTest" />
+      <option name="METHOD_NAME" value="testDeleteRestaurantMenuOnDatabase" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PoductToSellTest.testReadCulturalEventOnDatabase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RestaurantMenuTest.testReadRestaurantMenuOnDatabase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="katlhula" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PoductToSellTest" />
-      <option name="METHOD_NAME" value="testReadCulturalEventOnDatabase" />
+      <option name="MAIN_CLASS_NAME" value="RestaurantMenuTest" />
+      <option name="METHOD_NAME" value="testReadRestaurantMenuOnDatabase" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PoductToSellTest.testUpdateCulturalEventOnDatabase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RestaurantMenuTest.testUpdateRestaurantMenuOnDatabase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="katlhula" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PoductToSellTest" />
-      <option name="METHOD_NAME" value="testUpdateCulturalEventOnDatabase" />
+      <option name="MAIN_CLASS_NAME" value="RestaurantMenuTest" />
+      <option name="METHOD_NAME" value="testUpdateRestaurantMenuOnDatabase" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestaurantTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RoleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="katlhula" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RestaurantTest" />
+      <option name="MAIN_CLASS_NAME" value="RoleTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RestaurantTest" />
-        <item itemvalue="JUnit.PoductToSellTest.testDeleteCulturalEventOnDatabase" />
-        <item itemvalue="JUnit.PoductToSellTest.testUpdateCulturalEventOnDatabase" />
-        <item itemvalue="JUnit.PoductToSellTest.testReadCulturalEventOnDatabase" />
-        <item itemvalue="JUnit.PoductToSellTest.testCreateCulturalEventOnDatabase" />
+        <item itemvalue="JUnit.RoleTest" />
+        <item itemvalue="JUnit.RestaurantMenuTest.testDeleteRestaurantMenuOnDatabase" />
+        <item itemvalue="JUnit.RestaurantMenuTest.testUpdateRestaurantMenuOnDatabase" />
+        <item itemvalue="JUnit.RestaurantMenuTest.testReadRestaurantMenuOnDatabase" />
+        <item itemvalue="JUnit.RestaurantMenuTest.testCreateRestaurantMenuOnDatabase" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +305,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692699504213</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Refactoring the repositories and adding more database tests">
+      <option name="closed" value="true" />
+      <created>1692803153777</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1692803153777</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,7 +331,8 @@
     <MESSAGE value="Creating jpa branch to database connection" />
     <MESSAGE value="Adding more jpa annotation mapping" />
     <MESSAGE value="Refactoring the repositories and starting database tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring the repositories and starting database tests" />
+    <MESSAGE value="Refactoring the repositories and adding more database tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring the repositories and adding more database tests" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
