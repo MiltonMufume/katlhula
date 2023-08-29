@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b7ef2ed-eed9-449e-bb07-fd1413001b25" name="Changes" comment="Refactoring the repositories and adding more database tests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SellerContactTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/UserPhotoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/UtilizadorTest.java" afterDir="false" />
+    <list default="true" id="4b7ef2ed-eed9-449e-bb07-fd1413001b25" name="Changes" comment="Adding more database tests">
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/service/CulturalEventService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,17 +100,7 @@
       <recent name="co.mz.gposoft.domain" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="RestaurantMenuTest.testCreateRestaurantMenuOnDatabase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="katlhula" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RestaurantMenuTest" />
-      <option name="METHOD_NAME" value="testCreateRestaurantMenuOnDatabase" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.KatlhulaApplication">
     <configuration name="RestaurantMenuTest.testDeleteRestaurantMenuOnDatabase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="katlhula" />
       <option name="PACKAGE_NAME" value="" />
@@ -149,13 +140,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KatlhulaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="katlhula" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="co.mz.gposoft.katlhula.KatlhulaApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.mz.gposoft.katlhula.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.KatlhulaApplication" />
         <item itemvalue="JUnit.RoleTest" />
         <item itemvalue="JUnit.RestaurantMenuTest.testDeleteRestaurantMenuOnDatabase" />
         <item itemvalue="JUnit.RestaurantMenuTest.testUpdateRestaurantMenuOnDatabase" />
         <item itemvalue="JUnit.RestaurantMenuTest.testReadRestaurantMenuOnDatabase" />
-        <item itemvalue="JUnit.RestaurantMenuTest.testCreateRestaurantMenuOnDatabase" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +193,7 @@
       <workItem from="1692267195841" duration="1087000" />
       <workItem from="1692269624285" duration="655000" />
       <workItem from="1692270285830" duration="3150000" />
-      <workItem from="1693221377671" duration="4516000" />
+      <workItem from="1693221377671" duration="18487000" />
     </task>
     <task id="LOCAL-00001" summary="Adding this new project to the repo">
       <created>1684492451772</created>
@@ -326,7 +330,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692874136654</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Adding more database tests">
+      <option name="closed" value="true" />
+      <created>1693300625116</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1693300625116</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,7 +357,8 @@
     <MESSAGE value="Adding more jpa annotation mapping" />
     <MESSAGE value="Refactoring the repositories and starting database tests" />
     <MESSAGE value="Refactoring the repositories and adding more database tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring the repositories and adding more database tests" />
+    <MESSAGE value="Adding more database tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding more database tests" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
