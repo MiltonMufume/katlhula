@@ -18,7 +18,7 @@ import java.util.Map;
 public class CulturalEventService {
 
     @Autowired
-    CulturalEventRepository culturalEventRepository;
+    private CulturalEventRepository culturalEventRepository;
 
 
     @PostMapping("/createCulturalEvent")
@@ -37,6 +37,7 @@ public class CulturalEventService {
         culturalEvent.setDescription(culturalEventFeatures.getDescription());
         culturalEvent.setOrganizer(culturalEventFeatures.getOrganizer());
         culturalEvent.setEventPlace(culturalEventFeatures.getEventPlace());
+        culturalEvent.setCreatedBy(culturalEventFeatures.getCreatedBy());
 
         return ResponseEntity.ok(culturalEventRepository.save(culturalEvent));
     }
