@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b7ef2ed-eed9-449e-bb07-fd1413001b25" name="Changes" comment="Adding more tests to the project">
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/ProductClassification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/ProductStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PoductToSellTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestaurantTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4b7ef2ed-eed9-449e-bb07-fd1413001b25" name="Changes" comment="MOre web services">
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/service/SellerContactService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/service/UserPhotoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/service/UtilizadorService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/CulturalEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/CulturalEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/ProductToSell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/ProductToSell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula/domain/Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CulturalEventTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CulturalEventTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,15 +19,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="katlhula-frontend" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,31 +42,40 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2Q0Se2zTRjFq0wsDVdSgD6EtjR8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/mufume/workspace-csaude/openmrs-eip&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/mufume/workspace-personal/katlhula/src/main/java/co/mz/gposoft/katlhula&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;shared-indexes&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;eba3e9d9d3e901f02daf4182599e2071&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -81,68 +84,81 @@
       <recent name="co.mz.gposoft.katlhula.domain" />
       <recent name="co.mz.gposoft.domain" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/co/mz/gposoft/katlhula" />
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="co.mz.gposoft.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PoductToSellTest.testProdutoVendido">
-    <configuration name="CulturalEventTest.testEventoFuturo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.KatlhulaApplication">
+    <configuration name="RestaurantMenuTest.testDeleteRestaurantMenuOnDatabase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="katlhula" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CulturalEventTest" />
-      <option name="METHOD_NAME" value="testEventoFuturo" />
+      <option name="MAIN_CLASS_NAME" value="RestaurantMenuTest" />
+      <option name="METHOD_NAME" value="testDeleteRestaurantMenuOnDatabase" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CulturalEventTest.testReactivarEvento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RestaurantMenuTest.testReadRestaurantMenuOnDatabase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="katlhula" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CulturalEventTest" />
-      <option name="METHOD_NAME" value="testReactivarEvento" />
+      <option name="MAIN_CLASS_NAME" value="RestaurantMenuTest" />
+      <option name="METHOD_NAME" value="testReadRestaurantMenuOnDatabase" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PoductToSellTest.testInactivateRemovedProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RestaurantMenuTest.testUpdateRestaurantMenuOnDatabase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="katlhula" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PoductToSellTest" />
-      <option name="METHOD_NAME" value="testInactivateRemovedProduct" />
+      <option name="MAIN_CLASS_NAME" value="RestaurantMenuTest" />
+      <option name="METHOD_NAME" value="testUpdateRestaurantMenuOnDatabase" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PoductToSellTest.testProdutoDisponivel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RoleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="katlhula" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PoductToSellTest" />
-      <option name="METHOD_NAME" value="testProdutoDisponivel" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="RoleTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PoductToSellTest.testProdutoVendido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KatlhulaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="katlhula" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PoductToSellTest" />
-      <option name="METHOD_NAME" value="testProdutoVendido" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="co.mz.gposoft.katlhula.KatlhulaApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.mz.gposoft.katlhula.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PoductToSellTest.testProdutoVendido" />
-        <item itemvalue="JUnit.PoductToSellTest.testProdutoDisponivel" />
-        <item itemvalue="JUnit.PoductToSellTest.testInactivateRemovedProduct" />
-        <item itemvalue="JUnit.CulturalEventTest.testReactivarEvento" />
-        <item itemvalue="JUnit.CulturalEventTest.testEventoFuturo" />
+        <item itemvalue="Spring Boot.KatlhulaApplication" />
+        <item itemvalue="JUnit.RoleTest" />
+        <item itemvalue="JUnit.RestaurantMenuTest.testDeleteRestaurantMenuOnDatabase" />
+        <item itemvalue="JUnit.RestaurantMenuTest.testUpdateRestaurantMenuOnDatabase" />
+        <item itemvalue="JUnit.RestaurantMenuTest.testReadRestaurantMenuOnDatabase" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +186,14 @@
       <workItem from="1690287557830" duration="2631000" />
       <workItem from="1690379719354" duration="12000" />
       <workItem from="1691134141682" duration="3391000" />
-      <workItem from="1691138246161" duration="4144000" />
+      <workItem from="1691138246161" duration="5607000" />
+      <workItem from="1691392121482" duration="1319000" />
+      <workItem from="1692259099038" duration="4246000" />
+      <workItem from="1692267195841" duration="1087000" />
+      <workItem from="1692269624285" duration="655000" />
+      <workItem from="1692270285830" duration="3150000" />
+      <workItem from="1693221377671" duration="19079000" />
+      <workItem from="1693381515011" duration="11114000" />
     </task>
     <task id="LOCAL-00001" summary="Adding this new project to the repo">
       <created>1684492451772</created>
@@ -235,7 +258,103 @@
       <option name="project" value="LOCAL" />
       <updated>1687159740858</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Adding more tests to the project">
+      <option name="closed" value="true" />
+      <created>1691142521128</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1691142521128</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Creating jpa branch to database connection">
+      <option name="closed" value="true" />
+      <created>1692260517307</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1692260517307</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Adding more jpa annotation mapping">
+      <option name="closed" value="true" />
+      <created>1692617352125</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1692617352125</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Adding more jpa annotation mapping">
+      <option name="closed" value="true" />
+      <created>1692617398154</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1692617398154</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Adding more jpa annotation mapping">
+      <option name="closed" value="true" />
+      <created>1692630315807</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1692630315807</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Adding more jpa annotation mapping">
+      <option name="closed" value="true" />
+      <created>1692630798772</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1692630798772</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Refactoring the repositories and starting database tests">
+      <option name="closed" value="true" />
+      <created>1692699504213</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1692699504213</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Refactoring the repositories and adding more database tests">
+      <option name="closed" value="true" />
+      <created>1692803153777</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1692803153777</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Refactoring the repositories and adding more database tests">
+      <option name="closed" value="true" />
+      <created>1692874136654</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1692874136654</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Adding more database tests">
+      <option name="closed" value="true" />
+      <created>1693300625116</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1693300625116</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Creating the first rest web service and integrate with swagger for documentation">
+      <option name="closed" value="true" />
+      <created>1693318426535</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1693318426535</updated>
+    </task>
+    <task id="LOCAL-00021" summary="MOre web services">
+      <option name="closed" value="true" />
+      <created>1693395105778</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1693395105778</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +369,14 @@
     <MESSAGE value="Creating some new classes and adding junit 5 dependency" />
     <MESSAGE value="Adding the frontend base page" />
     <MESSAGE value="Adding more tests to the project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding more tests to the project" />
+    <MESSAGE value="Creating jpa branch to database connection" />
+    <MESSAGE value="Adding more jpa annotation mapping" />
+    <MESSAGE value="Refactoring the repositories and starting database tests" />
+    <MESSAGE value="Refactoring the repositories and adding more database tests" />
+    <MESSAGE value="Adding more database tests" />
+    <MESSAGE value="Creating the first rest web service and integrate with swagger for documentation" />
+    <MESSAGE value="MOre web services" />
+    <option name="LAST_COMMIT_MESSAGE" value="MOre web services" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,26 +1,41 @@
 package co.mz.gposoft.katlhula.domain;
 
+import javax.persistence.*;
 import java.time.LocalDate;
 
+@Entity
+@Table(name = "cultural_event")
 public class CulturalEvent {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id_cultural_event")
     private long id;
 
+    @Column(name = "description")
     private String description;
 
+    @Column(name = "event_date")
     private LocalDate eventDate;
 
+    @Column(name = "event_place")
     private String eventPlace;
 
+    @Column(name = "event_time")
     private String eventTime;
 
+    @Column(name = "event_organizer")
     private String organizer;
 
-    private User createdBy;
 
+    @OneToOne
+    @JoinColumn(name = "id_utilizador")
+    private Utilizador createdBy;
+
+    @Column(name = "status")
     private Status status;
 
-    public CulturalEvent(String description, LocalDate eventDate, String eventPlace, String eventTime, String organizer, User createdBy) {
+    public CulturalEvent(String description, LocalDate eventDate, String eventPlace, String eventTime, String organizer, Utilizador createdBy) {
 
         this.description = description;
         this.eventDate = eventDate;
@@ -30,8 +45,12 @@ public class CulturalEvent {
         this.createdBy = createdBy;
 
 
-        updateEventStatus( this.eventDate);
+        updateEventStatus(this.eventDate);
 
+
+    }
+
+    public CulturalEvent() {
 
     }
 
@@ -67,12 +86,36 @@ public class CulturalEvent {
         return organizer;
     }
 
-    public User getCreatedBy() {
+    public Utilizador getCreatedBy() {
         return createdBy;
     }
 
     public Status getStatus() {
         return status;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public void setEventPlace(String eventPlace) {
+        this.eventPlace = eventPlace;
+    }
+
+    public void setEventTime(String eventTime) {
+        this.eventTime = eventTime;
+    }
+
+    public void setOrganizer(String organizer) {
+        this.organizer = organizer;
+    }
+
+    public void setCreatedBy(Utilizador createdBy) {
+        this.createdBy = createdBy;
+    }
+
+    public void setStatus(Status status) {
+        this.status = status;
     }
 
     /*
