@@ -5,7 +5,7 @@
 This is a project that will be used to develop a a protoype for an application that aims to be used as a portal to
 manage cultural events, search restaurants, expose products to sell and to give the users the oportunity to classify the
 services offered in the application. In this project we will be testing a lot of sofltware development technologies with
-proof of concepts in different branches, each on them to be created based on the test that we want to do.
+proof of concepts in different branches, each of them to be created based on the test that we want to do.
 Informações adicionadas na aplicação só podem ser alteradas pelos seus criadores (por enquanto, enquanto não é
 adicionada a funcionalidade de se associar utilizadores).
 
