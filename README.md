@@ -52,4 +52,4 @@ adicionada a funcionalidade de se associar utilizadores).
 
 ## Katlhula class diagram
 
-![katlhula class diagram](support documents/katlhula.png)
+![katlhula class diagram](support%20documents/katlhula.png)
