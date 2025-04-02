@@ -58,11 +58,10 @@
             <scope>runtime</scope>
         </dependency>
 
-        <!-- Springfox Dependencies -->
         <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-boot-starter</artifactId>
-            <version>3.0.0</version>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-ui</artifactId>
+            <version>1.6.9</version> <!-- Use the latest version -->
         </dependency>
 
         <!-- JUnit and Mockito for Testing -->
@@ -79,14 +78,14 @@
         </dependency>
 
         <!-- Actuator and Micrometer -->
-        <!--<dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
         <dependency>
             <groupId>io.micrometer</groupId>
             <artifactId>micrometer-registry-prometheus</artifactId>
-        </dependency>-->
+        </dependency>
     </dependencies>
 
     <properties>

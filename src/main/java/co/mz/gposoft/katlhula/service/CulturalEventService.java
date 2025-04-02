@@ -2,7 +2,7 @@ package co.mz.gposoft.katlhula.service;
 
 import co.mz.gposoft.katlhula.dao.CulturalEventRepository;
 import co.mz.gposoft.katlhula.domain.CulturalEvent;
-import io.swagger.annotations.Api;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
