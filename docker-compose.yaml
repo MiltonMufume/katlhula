@@ -16,3 +16,13 @@ services:
       MYSQL_ALLOW_EMPTY_PASSWORD: no
       MYSQL_RANDOM_ROOT_PASSWORD: no
       MYSQL_DATABASE: katlhula_dev
+  prometheus:
+    image: prom/prometheus:v2.35.0
+    container_name: prometheus
+    restart: unless-stopped
+    volumes:
+      - ./data/prometheus/config:/etc/prometheus/
+    command:
+      - "--config.file=/etc/prometheus/prometheus.yaml"
+    ports:
+      - "9090:9090"
